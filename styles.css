@@ -1,13 +1,35 @@
-h1{
-background-color: #132743;
-text-align: center;
-color: #EDC988;
-padding: 0.5em;
+* {
+    width: auto;
 }
+
+h1 {
+    background-color: #132743;
+    text-align: center;
+    color: #EDC988;
+    padding: 0.5em;
+}
+
 h2 {
 
-background-color: #EAEAEA;
-text-align: center;
-color: #132743;
-padding: 0.5em;
+    background-color: #EAEAEA;
+    text-align: center;
+    color: #132743;
+    padding: 5px;
+    margin: 1px;
+}
+header{
+    height: 500px;
+    background-color: #132743;
+    margin: 5px;
+}
+#experiencias, #educacion, #habilidades, #proyectos {
+    height: 200px;
+    background-color: #132743;
+    margin: 5px;
+}
+
+footer, #acercaDe {
+    height: 200px;
+    background-color: #132743;
+    margin: 5px;
 }
