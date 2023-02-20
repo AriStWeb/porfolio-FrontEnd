@@ -1,35 +1,142 @@
 * {
     width: auto;
-}
-
-h1 {
-    background-color: #132743;
-    text-align: center;
-    color: #EDC988;
-    padding: 0.5em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 h2 {
-
     background-color: #EAEAEA;
     text-align: center;
     color: #132743;
-    padding: 5px;
-    margin: 1px;
+    padding-top: 5px;
+}
+body{
+    background-color: #999;
 }
 header{
     height: 500px;
     background-color: #132743;
     margin: 5px;
 }
-#experiencias, #educacion, #habilidades, #proyectos {
-    height: 200px;
+/* SECCIONES EN GRAL*/
+#experiencias, #educacion, #habilidades, #proyectos{
+    height: 450px;
+    background-color: #132743;
+    margin: 10px 0px;
+}
+#acercaDe{
+    height: 170px;
     background-color: #132743;
     margin: 5px;
 }
-
-footer, #acercaDe {
+/* BANNER*/
+#contenedorBanner, #contenedor-fondo-banner, #espacio-foto-banner, #fondo-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedorBanner{
+    height: 400px;
+    margin: 10px;
+}
+#contenedor-fondo-banner{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(102, 102, 102);
+    flex-direction: row;
+}
+#fondo-banner{
+    height: 250px;
+    width: 500px;
+    justify-content: flex-start;
+}
+#espacio-foto-banner{
+height: 100%;
+width: 50%;
+flex-direction: row;
+flex-wrap: wrap;
+}
+#foto-banner{
+    height: 100%;
+    width: 75%;
+    border-image: none;
+}
+#frase-banner p{
+    background-color: #999;
+}
+/* FOTO PERFIL*/
+#fotoPerfil{
+    height: 150px;
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    border-radius: 75px;
+    border: solid 3px #132743 ;
+}
+/* EXPERIENCIAS*/
+#espacioExp {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    justify-content: space-around;
+    margin: 0.5% 0%;
+}
+#fotoExp, #detallesExp{
+    height: 98%;
+}
+#fotoExp{
+    width: 20%;
+    background-color: #999;
+    margin: auto 7%;
+}
+#detallesExp {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+#tituloExp{
+    height: 25%;
+    width: 50%;
+    background-color: #999;
+    margin-bottom: 1%;
+}
+#espacioResumenExp{
+    height: 79%;
+    width: 85%;
+    background-color: #999;
+}
+/* HABILIDADES*/
+.contenedor-habilidades{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/* PROYECTO*/
+.cont-proyectos{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* FOOTER*/
+footer{
     height: 200px;
     background-color: #132743;
-    margin: 5px;
+}
+.contacto-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contacto-footer > h3{
+    width: 100%;
+    text-align: center;
+}
+.contacto-footer > div{
+    width: 50px;
+    height: 50px;
+    background-color: #999;
+    border-radius: 25px;
 }
