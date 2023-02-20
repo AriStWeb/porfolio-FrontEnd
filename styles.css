@@ -108,7 +108,10 @@ flex-wrap: wrap;
 #educacion{
     height: 500px;
     background-color: #132743;
-    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* HABILIDADES*/
 .contenedor-habilidades{
