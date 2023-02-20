@@ -1,6 +1,7 @@
 * {
     width: auto;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: medium;
 }
 
 h2 {
@@ -18,7 +19,7 @@ header{
     margin: 5px;
 }
 /* SECCIONES EN GRAL*/
-#experiencias, #educacion, #habilidades, #proyectos{
+#experiencias, #habilidades, #proyectos{
     height: 450px;
     background-color: #132743;
     margin: 10px 0px;
@@ -103,6 +104,14 @@ flex-wrap: wrap;
     height: 79%;
     width: 85%;
     background-color: #999;
+}
+#educacion{
+    height: 500px;
+    background-color: #132743;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* HABILIDADES*/
 .contenedor-habilidades{
